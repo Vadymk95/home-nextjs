@@ -2,7 +2,7 @@ import { Footer, Header } from './index';
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div className="content">
       <Header />
       {children}
       <Footer />
